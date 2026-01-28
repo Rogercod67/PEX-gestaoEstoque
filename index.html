@@ -75,7 +75,7 @@
       // login fake (PEX)
       if (usuario === "Louluzia" && senha === "Bolacheia100@") {
         sessionStorage.setItem("logado", "true");
-        window.location.href = "index.html";
+        window.location.href = "cadastro.html";
       } else {
         document.getElementById("erro").style.display = "block";
       }
@@ -83,7 +83,7 @@
 
     // se já estiver logado, pula o login
     if (sessionStorage.getItem("logado") === "true") {
-      window.location.href = "index.html";
+      window.location.href = "cadastro.html";
     }
   </script>
 
