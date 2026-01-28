@@ -1,0 +1,126 @@
+
+
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" media="(max-width: 800px)" href="altura-max800.css">
+
+<link rel="stylesheet" href="style.css">
+<style>
+    table {
+        font-size: 25px;
+       
+    }
+</style>
+
+<title>Estoque - Cadastro de Produtos</title>
+
+</head>
+
+<body onload="carregarTotalEstoque('totalEstoque')">
+
+<div class="carrinho">
+
+<img src="imagens/Carrinho-de-compras.png" width="200px" height="200px">
+<br>
+
+<p>Itens no estoque: <span id="totalEstoque">0</span></p>
+
+</div>
+
+<form>
+
+<table>
+
+<caption>Cadastro de Produtos</caption>
+
+<tr>
+
+<td class="alinharRotulos">Nome do produto:</td>
+
+<td><input id="txtNomeProduto" type="text"></td>
+
+</tr>
+
+<tr>
+
+<td class="alinharRotulos">Código do produto:</td>
+
+<td><input id="txtCodProduto" type="text"></td>
+
+</tr>
+
+<tr>
+  <td class="alinharRotulos">Valor do produto:</td>
+  <td><input id="txtValorProduto" type="number" step="0.01"></td>
+</tr>
+
+
+<tr>
+
+<td class="alinharRotulos">Quantidade do produto:</td>
+
+<td>
+
+<select id="qtidadeProduto">
+
+<option value="0">0</option>
+
+<option value="1">1</option>
+
+<option value="2">2</option>
+
+<option value="3">3</option>
+
+<option value="4">4</option>
+
+<option value="5">5</option>
+
+<option value="6">6</option>
+
+<option value="7">7</option>
+
+<option value="8">8</option>
+
+<option value="9">9</option>
+
+<option value="10">10</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2" text-align="center">
+
+<input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('txtNomeProduto','txtCodProduto','qtidadeProduto','txtValorProduto')">
+
+<input type="button" value="Ver estoque" class="alinhaBtns" onclick="window.open('verEstoque.html','_self')">
+
+<input type="reset" value="Limpar" class="alinhaBtns">
+
+</td>
+
+</tr>
+
+</table>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+        
