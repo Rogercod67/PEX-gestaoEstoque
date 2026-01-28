@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Documento</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body onload="listarEstoque(); listarCompras()">
+
+  <!-- Aqui aparecerá o estoque -->
+  <div id="saidaEstoque"></div>
+
+  <!-- Link de volta -->
+  <a href="index.html">Voltar ao Cadastro</a>
+
+  <h1>Estoque de Produtos</h1>
+
+<table border="1" id="tabelaEstoque">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Código</th>
+      <th>Quantidade</th>
+      <th>Valor</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody id="tabelaEstoque"></tbody>
+</table>
+
+
+<hr>
+
+<h2>Registro de Compras</h2>
+
+<table border="1" id="tabelaCompras">
+  <thead>
+    <tr>
+      <th>Produto</th>
+      <th>Quantidade</th>
+      <th>Valor Total</th>
+      <th>Comprador</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody id="tabelaCompras"></tbody>
+</table>
+
+<button onclick="listarEstoque()">Atualizar Estoque</button>
+<button onclick="listarCompras()">Ver Compras</button>
+<button onclick="registrarCompra()">Comprar</button>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+        
