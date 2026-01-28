@@ -1,0 +1,100 @@
+
+
+.alinharRotulos {
+
+text-align: right;
+font-size: 30px !important;
+font-weight: bold;
+
+}
+
+.alinhaBtns {
+
+width: 30%;
+
+background-color: #00CED1;
+
+color: white;
+
+border: 2px;
+
+padding: 5px;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+font-size: 25px;
+
+}
+
+.carrinho {
+
+width: 300px; 
+float: none;
+margin: auto;
+
+}
+
+.carrinho p {
+
+display: inline;
+
+}
+
+table {
+
+clear: both; 
+
+background: linear-gradient(90deg, #320b74 0%, #090979 35%, #005b6e 100%);
+
+border-radius: 10px; 
+
+color: white;
+
+padding: 20px;
+
+width: 800px;
+
+margin: auto;
+
+}
+
+caption {
+
+color: #00CED1;
+
+font-weight: bold;
+
+font-size: 60px;
+
+}
+
+/* Exemplo de imagem responsiva e com filtro */
+img {
+  filter: grayscale(50%);
+  border-radius: 10px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+img:hover {
+  filter: grayscale(0%); /* Remove o filtro ao passar o mouse */
+  transform: scale(1.05); /* Aumenta levemente */
+}
+
+input, select {
+  font-size: 35px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: center;
+}
