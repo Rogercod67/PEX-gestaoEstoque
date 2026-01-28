@@ -23,8 +23,8 @@ Tecnologias Utilizadas
 Estrutura do Projeto
 📂 projeto
 │
-├── login.html          # Autenticação do usuário
-├── index.html          # Cadastro de produtos
+├── index.html          # Autenticação do usuário
+├── cadastro.html          # Cadastro de produtos
 ├── verEstoque.html     # Estoque e registro de compras
 │
 ├── css/
